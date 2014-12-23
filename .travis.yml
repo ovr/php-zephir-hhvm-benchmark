@@ -5,6 +5,7 @@ language:
 php:
   - 5.5
   - 5.5
+  - hhvm
 
 script:
   - time php benchmark.php
