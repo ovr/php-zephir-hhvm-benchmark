@@ -8,6 +8,11 @@ php:
   - hhvm
 
 script:
-  - time php benchmark.php
-  - time php-cgi -T 100 benchmark.php > /dev/null
-  - time php-cgi -T 1000 benchmark.php > /dev/null
+  php:
+    - time php benchmark.php
+    - time php-cgi -T 100 benchmark.php > /dev/null
+    - time php-cgi -T 1000 benchmark.php > /dev/null
+  hhvm:
+    - time hhvm benchmark.php
+    - time hhvm -T 100 benchmark.php > /dev/null
+    - time hhvm -T 1000 benchmark.php > /dev/null
