@@ -93,7 +93,7 @@ class Benchmark {
         echo "Start Benchmark PHP " . PHP_VERSION . PHP_EOL;
         echo str_repeat('-', 40) . PHP_EOL;
 
-        $count = 140000;
+        $count = 1400000;
         $class = new Benchmark();
 
         Benchmark::benchCall($class, 'math', $count);
