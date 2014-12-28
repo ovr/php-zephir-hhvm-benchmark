@@ -35,11 +35,30 @@ class Benchmark {
         }
     }
 
+
+    public function simpleMethod()
+    {
+        return true;
+    }
+
+    public function methodCall($count)
+    {
+        for ($i=0; $i < $count; $i++) {
+            $this->simpleMethod();
+        }
+    }
+
     public static function bench()
     {
-        $count = 14000000;
+        echo "Start Benchmark PHP " . PHP_VERSION . PHP_EOL;
+
+        $count = 140000;
 
         $class = new Benchmark();
         $class->math($count);
+
+        $class->methodCall($count);
     }
 }
+
+Benchmark::bench();
