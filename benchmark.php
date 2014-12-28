@@ -93,16 +93,33 @@ class Benchmark {
         echo "Start Benchmark PHP " . PHP_VERSION . PHP_EOL;
         echo str_repeat('-', 40) . PHP_EOL;
 
+        $max = -10;
+        $min = 10;
+
         $count = 1400000;
+        $rounds = 5;
+
         $class = new Benchmark();
 
-        Benchmark::benchCall($class, 'math', $count);
-        Benchmark::benchCall($class, 'methodCallEmpty', $count);
-        Benchmark::benchCall($class, 'methodCallBool', $count);
-        Benchmark::benchCall($class, 'arrayAppendInt', $count);
-        Benchmark::benchCall($class, 'arrayAppendString', $count);
+        for ($i = 0; $i < $rounds; $i++) {
+            $total = 0;
+
+            echo "Round " . ($i+1) . "...." . PHP_EOL;
+            $total += Benchmark::benchCall($class, 'math', $count);
+            $total += Benchmark::benchCall($class, 'methodCallEmpty', $count);
+            $total += Benchmark::benchCall($class, 'methodCallBool', $count);
+            $total += Benchmark::benchCall($class, 'arrayAppendInt', $count);
+            $total += Benchmark::benchCall($class, 'arrayAppendString', $count);
+            echo "end" . PHP_EOL;
+            echo PHP_EOL;
+
+            $min = min($min, $total);
+            $max = max($max, $total);
+        }
 
         echo str_repeat('-', 40) . PHP_EOL;
+        echo "Max: " . $max . PHP_EOL;
+        echo "Min: " . $min . PHP_EOL;
     }
 }
 
