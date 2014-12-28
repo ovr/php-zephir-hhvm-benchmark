@@ -57,6 +57,15 @@ class Benchmark {
         }
     }
 
+    public function arrayAppendString($count)
+    {
+        $tmp = array();
+
+        for ($i=0; $i < $count; $i++) {
+            $tmp[] = "";
+        }
+    }
+
     public static function benchCall($class, $method, $count)
     {
         $startTime = microtime(true);
@@ -79,6 +88,7 @@ class Benchmark {
         Benchmark::benchCall($class, 'math', $count);
         Benchmark::benchCall($class, 'methodCall', $count);
         Benchmark::benchCall($class, 'arrayAppendInt', $count);
+        Benchmark::benchCall($class, 'arrayAppendString', $count);
 
         echo str_repeat('-', 40) . PHP_EOL;
     }
