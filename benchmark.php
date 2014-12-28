@@ -63,7 +63,7 @@ class Benchmark {
         $class->{$method}($count);
 
         $elapsed = microtime(true) - $startTime;
-        echo ucfirst($method) . ": ($elapsed) seconds" . PHP_EOL;
+        echo ucfirst($method) . ": ($elapsed) sec." . PHP_EOL;
 
         return $elapsed;
     }
@@ -71,6 +71,7 @@ class Benchmark {
     public static function bench()
     {
         echo "Start Benchmark PHP " . PHP_VERSION . PHP_EOL;
+        echo str_repeat('-', 40) . PHP_EOL;
 
         $count = 140000;
         $class = new Benchmark();
@@ -79,7 +80,7 @@ class Benchmark {
         Benchmark::benchCall($class, 'methodCall', $count);
         Benchmark::benchCall($class, 'arrayAppendInt', $count);
 
-        $class->methodCall($count);
+        echo str_repeat('-', 40) . PHP_EOL;
     }
 }
 
