@@ -97,7 +97,7 @@ class Benchmark {
         $min = 10;
 
         $count = 1400000;
-        $rounds = 10;
+        $rounds = 15;
 
         $class = new Benchmark();
 
@@ -117,9 +117,21 @@ class Benchmark {
             $max = max($max, $total);
         }
 
+
+        /**
+         * 0.1 - 60 000
+         * $min -
+         */
+
+        $perfect = 0.1;
+        $perfectScore = 60000;
+
         echo str_repeat('-', 40) . PHP_EOL;
         echo "Max: " . $max . PHP_EOL;
         echo "Min: " . $min . PHP_EOL;
+
+        $score = ($perfect/$min)*$perfectScore;
+        echo "Score: " . number_format($score, 0, ' ', 'k') . PHP_EOL;
     }
 }
 
