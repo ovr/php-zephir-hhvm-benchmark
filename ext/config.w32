@@ -1,0 +1,10 @@
+ARG_ENABLE("benchmark", "enable benchmark", "no");
+
+if (PHP_BENCHMARK != "no") {
+  EXTENSION("benchmark", "benchmark.c", null, "-I"+configure_module_dirname);
+  ADD_SOURCES(configure_module_dirname + "/kernel", "main.c memory.c exception.c hash.c debug.c backtrace.c object.c array.c string.c fcall.c require.c file.c operators.c concat.c variables.c filter.c iterator.c exit.c", "benchmark");
+  ADD_SOURCES(configure_module_dirname + "/kernel/extended", "array.c", "benchmark");
+  
+  ADD_SOURCES(configure_module_dirname + "/benchmark", "benchmark.zep.c", "benchmark");
+  ADD_FLAG("CFLAGS_BENCHMARK", "/D ZEPHIR_RELEASE");
+}

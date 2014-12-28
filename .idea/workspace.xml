@@ -2,95 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a2f298-3392-432f-be88-830869bac3c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/array.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/extended/.libs/array.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/backtrace.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/concat.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/debug.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/exception.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/exit.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/fcall.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/file.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/filter.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/hash.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/iterator.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/main.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/memory.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/object.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/operators.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/require.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/string.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/.libs/variables.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/benchmark/Benchmark.zep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/array.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/extended/array.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/array.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/extended/array.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/array.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/extended/array.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/assert.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/assert.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/backtrace.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/backtrace.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/backtrace.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/concat.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/concat.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/concat.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/debug.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/debug.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/debug.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/exception.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/exception.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/exception.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/exit.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/exit.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/exit.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/fcall.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/fcall.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/fcall.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/file.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/file.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/file.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/filter.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/filter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/filter.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/globals.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/hash.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/hash.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/hash.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/iterator.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/iterator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/iterator.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/main.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/main.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/main.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/memory.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/memory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/memory.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/object.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/object.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/object.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/operators.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/operators.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/operators.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/output.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/output.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/persistent.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/persistent.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/require.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/require.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/require.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/session.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/session.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/string.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/string.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/string.lo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/variables.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/variables.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/kernel/variables.lo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/concat.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/concat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/benchmark/Benchmark.zep" afterPath="$PROJECT_DIR$/benchmark/Benchmark.zep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/concat.c" afterPath="$PROJECT_DIR$/ext/kernel/concat.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/concat.h" afterPath="$PROJECT_DIR$/ext/kernel/concat.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="php-zephir-hhvm-benchmark.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,8 +35,8 @@
       <file leaf-file-name="benchmark.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/benchmark.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1150">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
+            <state vertical-scroll-proportion="-14.716981" vertical-offset="0" max-vertical-offset="1000">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
               <folding>
                 <element signature="e#6#55#0#PHP" expanded="true" />
               </folding>
@@ -127,11 +44,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Benchmark.zep" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5209657" vertical-offset="0" max-vertical-offset="1574">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Benchmark.zep" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67737615" vertical-offset="0" max-vertical-offset="1494">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1100">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="benchmark.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmark.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1100">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -140,14 +87,10 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.76" vertical-offset="0" max-vertical-offset="506">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1419342847000" expanded="true" signature="0:24" placeholder="language:" />
-                <marker date="1419342847000" expanded="true" signature="25:55" placeholder="php:" />
-                <marker date="1419342847000" expanded="true" signature="56:288" placeholder="script:" />
                 <marker date="1419342847000" expanded="true" signature="66:152" placeholder="php:" />
-                <marker date="1419342847000" expanded="true" signature="154:288" placeholder="hhvm:" />
               </folding>
             </state>
           </provider>
@@ -164,6 +107,8 @@
         <option value="$PROJECT_DIR$/benchmark.php" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/benchmark/Benchmark.zep" />
+        <option value="$PROJECT_DIR$/benchmark.ini" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -199,6 +144,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,13 +173,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-zephir-hhvm-benchmark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-zephir-hhvm-benchmark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="benchmark" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,6 +204,12 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -252,17 +217,16 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -281,25 +245,25 @@
     <frame x="0" y="23" width="3200" height="1692" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25142494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -323,23 +287,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.76" vertical-offset="0" max-vertical-offset="506">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1419342847000" expanded="true" signature="0:24" placeholder="language:" />
-            <marker date="1419342847000" expanded="true" signature="25:55" placeholder="php:" />
-            <marker date="1419342847000" expanded="true" signature="56:288" placeholder="script:" />
-            <marker date="1419342847000" expanded="true" signature="66:152" placeholder="php:" />
-            <marker date="1419342847000" expanded="true" signature="154:288" placeholder="hhvm:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/benchmark.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1150">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
           <folding>
             <element signature="e#6#55#0#PHP" expanded="true" />
@@ -349,8 +299,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67737615" vertical-offset="0" max-vertical-offset="1494">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1100">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1100">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1419342847000" expanded="true" signature="66:152" placeholder="php:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1419342847000" expanded="true" signature="66:152" placeholder="php:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1100">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1100">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1549">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.716981" vertical-offset="0" max-vertical-offset="1000">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5209657" vertical-offset="0" max-vertical-offset="1574">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
           <folding />
         </state>
       </provider>
