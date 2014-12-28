@@ -67,8 +67,7 @@ class Benchmark {
         $class = new Benchmark();
 
         Benchmark::benchCall($class, 'math', $count);
-
-
+        Benchmark::benchCall($class, 'methodCall', $count);
 
         $class->methodCall($count);
     }
