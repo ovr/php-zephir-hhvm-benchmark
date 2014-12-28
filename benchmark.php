@@ -48,14 +48,27 @@ class Benchmark {
         }
     }
 
+    public static function benchCall($class, $method, $count)
+    {
+        $startTime = microtime(true);
+        $class->{$method}($count);
+
+        $elapsed = microtime(true) - $startTime;
+        echo ucfirst($method) . ": ($elapsed) seconds" . PHP_EOL;
+
+        return $elapsed;
+    }
+
     public static function bench()
     {
         echo "Start Benchmark PHP " . PHP_VERSION . PHP_EOL;
 
         $count = 140000;
-
         $class = new Benchmark();
-        $class->math($count);
+
+        Benchmark::benchCall($class, 'math', $count);
+
+
 
         $class->methodCall($count);
     }
