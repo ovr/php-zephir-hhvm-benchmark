@@ -175,7 +175,7 @@ class Benchmark
         $min = 10;
 
         $count = 1400000;
-        $rounds = 1;
+        $rounds = 10;
 
         $class = new Benchmark();
 
