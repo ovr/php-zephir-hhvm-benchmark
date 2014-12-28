@@ -97,7 +97,7 @@ class Benchmark {
         $min = 10;
 
         $count = 1400000;
-        $rounds = 5;
+        $rounds = 10;
 
         $class = new Benchmark();
 
