@@ -90,7 +90,10 @@ class Benchmark {
 
     public static function bench()
     {
-        echo "Start Benchmark PHP " . PHP_VERSION . PHP_EOL;
+        echo "Benchmark PHP-" . PHP_VERSION . PHP_EOL;
+        echo "OS: " . PHP_OS . PHP_EOL;
+        echo "Info: " . php_uname('a') . PHP_EOL;
+
         echo str_repeat('-', 40) . PHP_EOL;
 
         $max = -10;
