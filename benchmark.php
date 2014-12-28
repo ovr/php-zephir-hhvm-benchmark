@@ -3,7 +3,10 @@
  * @author Patsura Dmitry <talk@dmtry.me>
  */
 
-class Benchmark {
+class Benchmark
+{
+    const SIMPLE_BOOL = true;
+
     public function math($count)
     {
         for ($i=0; $i < $count; $i++) {
@@ -77,6 +80,20 @@ class Benchmark {
         }
     }
 
+    public function readClassConstBySelf($count)
+    {
+        for ($i=0; $i < $count; $i++) {
+            $tmp = self::SIMPLE_BOOL;
+        }
+    }
+
+    public function readClassConst($count)
+    {
+        for ($i=0; $i < $count; $i++) {
+            $tmp = Benchmark::SIMPLE_BOOL;
+        }
+    }
+
     public static function benchCall($class, $method, $count)
     {
         $startTime = microtime(true);
@@ -109,10 +126,16 @@ class Benchmark {
 
             echo "Round " . ($i+1) . "...." . PHP_EOL;
             $total += Benchmark::benchCall($class, 'math', $count);
+            
             $total += Benchmark::benchCall($class, 'methodCallEmpty', $count);
             $total += Benchmark::benchCall($class, 'methodCallBool', $count);
+
             $total += Benchmark::benchCall($class, 'arrayAppendInt', $count);
             $total += Benchmark::benchCall($class, 'arrayAppendString', $count);
+
+            $total += Benchmark::benchCall($class, 'readClassConst', $count);
+            $total += Benchmark::benchCall($class, 'readClassConstBySelf', $count);
+
             echo "end" . PHP_EOL;
             echo PHP_EOL;
 
