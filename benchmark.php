@@ -33,16 +33,22 @@ class Table
 
     public function printTable()
     {
-        echo str_repeat('-', (($this->maxWidth+3)*count($this->headers))+1) . PHP_EOL;
+//       echo str_repeat('-', (($this->maxWidth+3)*count($this->headers))+1) . PHP_EOL;
 
         echo '|';
-
         foreach ($this->headers as $header) {
             echo ' ' . $header . (str_repeat(' ', $this->maxWidth-strlen($header))) . ' |';
         }
 
         echo PHP_EOL;
-        echo str_repeat('-', (($this->maxWidth+3)*count($this->headers))+1) . PHP_EOL;
+
+        echo '|';
+        foreach ($this->headers as $header) {
+            echo str_repeat('-', $this->maxWidth+2) . '|';
+        }
+        echo PHP_EOL;
+
+//        echo str_repeat('-', (($this->maxWidth+3)*count($this->headers))+1) . PHP_EOL;
 
         foreach ($this->rows as $row) {
             echo '|';
@@ -52,7 +58,7 @@ class Table
             }
 
             echo PHP_EOL;
-            echo str_repeat('-', (($this->maxWidth+3)*count($this->headers))+1) . PHP_EOL;
+//            echo str_repeat('-', (($this->maxWidth+3)*count($this->headers))+1) . PHP_EOL;
         }
     }
 }
@@ -233,9 +239,11 @@ class Benchmark
         $perfect = 0.1;
         $perfectScore = 60000;
 
-        echo str_repeat('=', 40) . PHP_EOL;
+        echo str_repeat('=', 40) . PHP_EOL . PHP_EOL;
 
         $table->printTable();
+
+        echo PHP_EOL;
 
         echo "Max: " . $max . PHP_EOL;
         echo "Min: " . $min . PHP_EOL;
