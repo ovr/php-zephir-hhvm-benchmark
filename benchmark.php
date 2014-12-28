@@ -218,7 +218,7 @@ class Benchmark
                 $value = $allStatistics[$i][$key];
 
                 $minRow = min($minRow, $value);
-                $maxRow = min($maxRow, $value);
+                $maxRow = max($maxRow, $value);
                 $avgRow += $value;
             }
 
