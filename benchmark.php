@@ -48,6 +48,15 @@ class Benchmark {
         }
     }
 
+    public function arrayAppendInt($count)
+    {
+        $tmp = array();
+
+        for ($i=0; $i < $count; $i++) {
+            $tmp[] = 1;
+        }
+    }
+
     public static function benchCall($class, $method, $count)
     {
         $startTime = microtime(true);
@@ -68,6 +77,7 @@ class Benchmark {
 
         Benchmark::benchCall($class, 'math', $count);
         Benchmark::benchCall($class, 'methodCall', $count);
+        Benchmark::benchCall($class, 'arrayAppendInt', $count);
 
         $class->methodCall($count);
     }
