@@ -36,15 +36,26 @@ class Benchmark {
     }
 
 
-    public function simpleMethod()
+    public function simpleMethodEmpty()
+    {
+    }
+
+    public function simpleMethodBool()
     {
         return true;
     }
 
-    public function methodCall($count)
+    public function methodCallEmpty($count)
     {
         for ($i=0; $i < $count; $i++) {
-            $this->simpleMethod();
+            $this->simpleMethodEmpty();
+        }
+    }
+
+    public function methodCallBool($count)
+    {
+        for ($i=0; $i < $count; $i++) {
+            $this->simpleMethodBool();
         }
     }
 
@@ -86,7 +97,8 @@ class Benchmark {
         $class = new Benchmark();
 
         Benchmark::benchCall($class, 'math', $count);
-        Benchmark::benchCall($class, 'methodCall', $count);
+        Benchmark::benchCall($class, 'methodCallEmpty', $count);
+        Benchmark::benchCall($class, 'methodCallBool', $count);
         Benchmark::benchCall($class, 'arrayAppendInt', $count);
         Benchmark::benchCall($class, 'arrayAppendString', $count);
 
