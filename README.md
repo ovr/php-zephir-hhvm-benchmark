@@ -21,7 +21,6 @@ curl -sS https://raw.githubusercontent.com/ovr/php-zephir-hhvm-benchmark/master/
 
 ## Simple output
 
-```
 | Test                 | Min                  | Max                  | Avg                  |
 |----------------------|----------------------|----------------------|----------------------|
 | math                 | 1.2821700572968      | 1.3130078315735      | 1.2895672798157      |
@@ -35,4 +34,3 @@ curl -sS https://raw.githubusercontent.com/ovr/php-zephir-hhvm-benchmark/master/
 Max: 2.3833541870117
 Min: 2.3381989002228
 Score: 2k566
-```
