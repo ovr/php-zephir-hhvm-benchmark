@@ -17,6 +17,7 @@
 #include "kernel/operators.h"
 #include "kernel/array.h"
 #include "kernel/hash.h"
+#include "kernel/concat.h"
 
 
 /**
@@ -169,20 +170,44 @@ PHP_METHOD(Benchmark_Benchmark, math) {
 
 PHP_METHOD(Benchmark_Benchmark, bench) {
 
-	int count = 14000000, ZEPHIR_LAST_CALL_STATUS;
-	zval *tmp, *_0;
+	int ZEPHIR_LAST_CALL_STATUS, count = 14000000;
+	zephir_nts_static zephir_fcall_cache_entry *_8 = NULL;
+	zval *_0, *_1, *_2, *_3, *_4, *_5, _6, *_7 = NULL, *_9, *_10, *tmp, *_11;
 
 	ZEPHIR_MM_GROW();
 
+	ZEPHIR_INIT_VAR(_0);
+	ZEPHIR_GET_CONSTANT(_0, "PHP_VERSION");
+	ZEPHIR_INIT_VAR(_1);
+	ZEPHIR_GET_CONSTANT(_1, "PHP_EOL");
+	ZEPHIR_INIT_VAR(_2);
+	ZEPHIR_CONCAT_SVV(_2, "Benchmark PHP-", _0, _1);
+	zend_print_zval(_2, 0);
+	ZEPHIR_INIT_VAR(_3);
+	ZEPHIR_GET_CONSTANT(_3, "PHP_OS");
+	ZEPHIR_INIT_VAR(_4);
+	ZEPHIR_GET_CONSTANT(_4, "PHP_EOL");
+	ZEPHIR_INIT_VAR(_5);
+	ZEPHIR_CONCAT_SVV(_5, "OS: ", _3, _4);
+	zend_print_zval(_5, 0);
+	ZEPHIR_SINIT_VAR(_6);
+	ZVAL_LONG(&_6, 'a');
+	ZEPHIR_CALL_FUNCTION(&_7, "php_uname", &_8, &_6);
+	zephir_check_call_status();
+	ZEPHIR_INIT_VAR(_9);
+	ZEPHIR_GET_CONSTANT(_9, "PHP_EOL");
+	ZEPHIR_INIT_VAR(_10);
+	ZEPHIR_CONCAT_SVV(_10, "Info: ", _7, _9);
+	zend_print_zval(_10, 0);
 	ZEPHIR_INIT_VAR(tmp);
 	object_init_ex(tmp, benchmark_benchmark_ce);
 	if (zephir_has_constructor(tmp TSRMLS_CC)) {
 		ZEPHIR_CALL_METHOD(NULL, tmp, "__construct", NULL);
 		zephir_check_call_status();
 	}
-	ZEPHIR_INIT_VAR(_0);
-	ZVAL_LONG(_0, count);
-	ZEPHIR_CALL_METHOD(NULL, tmp, "math", NULL, _0);
+	ZEPHIR_INIT_VAR(_11);
+	ZVAL_LONG(_11, count);
+	ZEPHIR_CALL_METHOD(NULL, tmp, "math", NULL, _11);
 	zephir_check_call_status();
 	ZEPHIR_MM_RESTORE();
 

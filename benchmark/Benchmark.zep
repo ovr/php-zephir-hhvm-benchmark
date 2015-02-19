@@ -41,6 +41,10 @@ class Benchmark
 
     public static function bench()
     {
+        echo "Benchmark PHP-" . PHP_VERSION . PHP_EOL;
+        echo "OS: " . PHP_OS . PHP_EOL;
+        echo "Info: " . php_uname('a') . PHP_EOL;
+
         var tmp;
         var count = 14000000;
 
