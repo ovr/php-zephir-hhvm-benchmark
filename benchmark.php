@@ -86,10 +86,6 @@ class Benchmark
         }
 
         for ($i=0; $i < $count; $i++) {
-            bindec($i);
-        }
-
-        for ($i=0; $i < $count; $i++) {
             floor($i);
         }
 
@@ -180,7 +176,7 @@ class Benchmark
         $max = -10;
         $min = 10;
 
-        $count = 1400000;
+        $count = 14000000;
         $rounds = 10;
 
         $class = new Benchmark();
