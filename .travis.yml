@@ -9,7 +9,4 @@ php:
   - hhvm
 
 script:
-  php:
-    - time php benchmark.php
-  hhvm:
-    - time hhvm benchmark.php
+  - time php benchmark.php
