@@ -14,6 +14,8 @@ ext/acinclude.m4
 ext/aclocal.m4
 ext/autom4te.cache/
 ext/build/
+ext/kernel/.libs
+.idea
 ext/config.guess
 ext/config.h.in
 ext/config.sub

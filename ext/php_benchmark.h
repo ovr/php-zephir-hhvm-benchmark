@@ -14,7 +14,7 @@
 #define PHP_BENCHMARK_VERSION     "0.0.1"
 #define PHP_BENCHMARK_EXTNAME     "benchmark"
 #define PHP_BENCHMARK_AUTHOR      ""
-#define PHP_BENCHMARK_ZEPVERSION  "0.5.9a"
+#define PHP_BENCHMARK_ZEPVERSION  "0.6.0a"
 #define PHP_BENCHMARK_DESCRIPTION ""
 
 

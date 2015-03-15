@@ -137,12 +137,18 @@ static PHP_GSHUTDOWN_FUNCTION(benchmark)
 
 }
 
+
+zend_function_entry php_benchmark_functions[] = {
+ZEND_FE_END
+
+};
+
 zend_module_entry benchmark_module_entry = {
 	STANDARD_MODULE_HEADER_EX,
 	NULL,
 	NULL,
 	PHP_BENCHMARK_EXTNAME,
-	NULL,
+	php_benchmark_functions,
 	PHP_MINIT(benchmark),
 #ifndef ZEPHIR_RELEASE
 	PHP_MSHUTDOWN(benchmark),

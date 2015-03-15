@@ -8,33 +8,29 @@ class Benchmark
 {
     public function math(var count)
     {
-        var i;
+        int i;
 
-        for i in [1...count] {
+        for i in range(1, count) {
             abs(i);
         }
 
-        for i in [1...count] {
+        for i in range(1, count) {
             acos(i);
         }
 
-        for i in [1...count] {
+        for i in range(1, count) {
             asin(i);
         }
 
-        for i in [1...count] {
+        for i in range(1, count) {
             atan(i);
         }
 
-        for i in [1...count] {
-            bindec(i);
-        }
-
-        for i in [1...count] {
+        for i in range(1, count) {
             floor(i);
         }
 
-        for i in [1...count] {
+        for i in range(1, count) {
             exp(i);
         }
     }

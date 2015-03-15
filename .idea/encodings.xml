@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/AbsOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/AcosOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/AsinOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/AtanOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/BindecOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/ExpOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Optimizers/FunctionCall/FloorOptimizer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../zephir/zephir/Library/Statements/ForStatement.php" charset="UTF-8" />
+  </component>
 </project>

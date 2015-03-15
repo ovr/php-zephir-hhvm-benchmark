@@ -2,65 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a2f298-3392-432f-be88-830869bac3c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zephir-bench.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/array.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/array.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/extended/.libs/array.o" afterPath="$PROJECT_DIR$/ext/kernel/extended/.libs/array.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/backtrace.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/backtrace.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/concat.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/concat.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/debug.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/debug.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/exception.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/exception.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/exit.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/exit.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/fcall.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/fcall.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/file.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/file.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/filter.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/filter.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/hash.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/hash.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/iterator.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/iterator.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/main.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/main.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/memory.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/memory.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/object.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/object.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/operators.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/operators.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/require.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/require.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/string.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/string.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/.libs/variables.o" afterPath="$PROJECT_DIR$/ext/kernel/.libs/variables.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/benchmark/Benchmark.zep" afterPath="$PROJECT_DIR$/benchmark/Benchmark.zep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/array.c" afterPath="$PROJECT_DIR$/ext/kernel/array.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/extended/array.c" afterPath="$PROJECT_DIR$/ext/kernel/extended/array.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/array.h" afterPath="$PROJECT_DIR$/ext/kernel/array.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/extended/array.h" afterPath="$PROJECT_DIR$/ext/kernel/extended/array.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/assert.c" afterPath="$PROJECT_DIR$/ext/kernel/assert.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/assert.h" afterPath="$PROJECT_DIR$/ext/kernel/assert.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/backtrace.c" afterPath="$PROJECT_DIR$/ext/kernel/backtrace.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/backtrace.h" afterPath="$PROJECT_DIR$/ext/kernel/backtrace.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/benchmark.c" afterPath="$PROJECT_DIR$/ext/benchmark.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/benchmark.php" afterPath="$PROJECT_DIR$/benchmark.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/benchmark/benchmark.zep.c" afterPath="$PROJECT_DIR$/ext/benchmark/benchmark.zep.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/concat.c" afterPath="$PROJECT_DIR$/ext/kernel/concat.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/concat.h" afterPath="$PROJECT_DIR$/ext/kernel/concat.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/debug.c" afterPath="$PROJECT_DIR$/ext/kernel/debug.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/debug.h" afterPath="$PROJECT_DIR$/ext/kernel/debug.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/exception.c" afterPath="$PROJECT_DIR$/ext/kernel/exception.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/exception.h" afterPath="$PROJECT_DIR$/ext/kernel/exception.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/exit.c" afterPath="$PROJECT_DIR$/ext/kernel/exit.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/exit.h" afterPath="$PROJECT_DIR$/ext/kernel/exit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/fcall.c" afterPath="$PROJECT_DIR$/ext/kernel/fcall.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/fcall.h" afterPath="$PROJECT_DIR$/ext/kernel/fcall.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/file.c" afterPath="$PROJECT_DIR$/ext/kernel/file.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/file.h" afterPath="$PROJECT_DIR$/ext/kernel/file.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/filter.c" afterPath="$PROJECT_DIR$/ext/kernel/filter.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/filter.h" afterPath="$PROJECT_DIR$/ext/kernel/filter.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/globals.h" afterPath="$PROJECT_DIR$/ext/kernel/globals.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/hash.c" afterPath="$PROJECT_DIR$/ext/kernel/hash.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/hash.h" afterPath="$PROJECT_DIR$/ext/kernel/hash.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/iterator.c" afterPath="$PROJECT_DIR$/ext/kernel/iterator.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/iterator.h" afterPath="$PROJECT_DIR$/ext/kernel/iterator.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/main.c" afterPath="$PROJECT_DIR$/ext/kernel/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/main.h" afterPath="$PROJECT_DIR$/ext/kernel/main.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/memory.c" afterPath="$PROJECT_DIR$/ext/kernel/memory.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/memory.h" afterPath="$PROJECT_DIR$/ext/kernel/memory.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/object.c" afterPath="$PROJECT_DIR$/ext/kernel/object.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/object.h" afterPath="$PROJECT_DIR$/ext/kernel/object.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/operators.c" afterPath="$PROJECT_DIR$/ext/kernel/operators.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/operators.h" afterPath="$PROJECT_DIR$/ext/kernel/operators.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/output.c" afterPath="$PROJECT_DIR$/ext/kernel/output.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/output.h" afterPath="$PROJECT_DIR$/ext/kernel/output.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/persistent.c" afterPath="$PROJECT_DIR$/ext/kernel/persistent.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/persistent.h" afterPath="$PROJECT_DIR$/ext/kernel/persistent.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/require.c" afterPath="$PROJECT_DIR$/ext/kernel/require.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/require.h" afterPath="$PROJECT_DIR$/ext/kernel/require.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/session.c" afterPath="$PROJECT_DIR$/ext/kernel/session.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/session.h" afterPath="$PROJECT_DIR$/ext/kernel/session.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/string.c" afterPath="$PROJECT_DIR$/ext/kernel/string.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/string.h" afterPath="$PROJECT_DIR$/ext/kernel/string.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/variables.c" afterPath="$PROJECT_DIR$/ext/kernel/variables.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/kernel/variables.h" afterPath="$PROJECT_DIR$/ext/kernel/variables.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/php_benchmark.h" afterPath="$PROJECT_DIR$/ext/php_benchmark.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="php-zephir-hhvm-benchmark.iws" />
@@ -89,7 +57,7 @@
       <file leaf-file-name="standard_0.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="25263" max-vertical-offset="29232">
+            <state vertical-scroll-proportion="0.0" vertical-offset="31278" max-vertical-offset="36192">
               <caret line="1203" column="27" selection-start-line="1203" selection-start-column="27" selection-end-line="1203" selection-end-column="27" />
               <folding />
             </state>
@@ -99,7 +67,7 @@
       <file leaf-file-name="standard_3.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="13671" max-vertical-offset="22281">
+            <state vertical-scroll-proportion="0.0" vertical-offset="16926" max-vertical-offset="27586">
               <caret line="651" column="60" selection-start-line="651" selection-start-column="50" selection-end-line="651" selection-end-column="60" />
               <folding />
             </state>
@@ -108,21 +76,21 @@
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.2" vertical-offset="0" max-vertical-offset="861">
+            <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1066">
               <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="987">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="1222">
               <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
               <folding />
             </state>
@@ -132,8 +100,8 @@
       <file leaf-file-name="benchmark.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/benchmark.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-52.62963" vertical-offset="3934" max-vertical-offset="5481">
-              <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="19" />
+            <state vertical-scroll-proportion="-29.35484" vertical-offset="1300" max-vertical-offset="6682">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
               <folding>
                 <element signature="e#6#55#0#PHP" expanded="true" />
               </folding>
@@ -141,21 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zephir-bench.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zephir-bench.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zephir-bench.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06787331" vertical-offset="0" max-vertical-offset="1547">
+            <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="338">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Benchmark.zep" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Benchmark.zep" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1239">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.44656488" vertical-offset="0" max-vertical-offset="1572">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,8 +132,8 @@
       <file leaf-file-name="benchmark.zep.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext/benchmark/benchmark.zep.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="4641">
-              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+            <state vertical-scroll-proportion="-17.148148" vertical-offset="2475" max-vertical-offset="5330">
+              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -174,7 +142,7 @@
       <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1155">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="1430">
               <caret line="40" column="27" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="27" />
               <folding />
             </state>
@@ -192,10 +160,11 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/benchmark.ini" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/benchmark.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/benchmark/Benchmark.zep" />
         <option value="$PROJECT_DIR$/zephir-bench.php" />
+        <option value="$PROJECT_DIR$/ext/benchmark/benchmark.zep.c" />
+        <option value="$PROJECT_DIR$/benchmark/Benchmark.zep" />
+        <option value="$PROJECT_DIR$/benchmark.php" />
       </list>
     </option>
   </component>
@@ -231,6 +200,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,7 +267,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,7 +332,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25459152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25775808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -404,6 +373,152 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16926" max-vertical-offset="27586">
+          <caret line="651" column="60" selection-start-line="651" selection-start-column="50" selection-end-line="651" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1066">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="1222">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6630" max-vertical-offset="6786">
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir-bench.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="338">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/benchmark/benchmark.zep.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4472" max-vertical-offset="5746">
+          <caret line="172" column="31" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="1430">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25263" max-vertical-offset="29232">
+          <caret line="1203" column="27" selection-start-line="1203" selection-start-column="27" selection-end-line="1203" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13671" max-vertical-offset="22281">
+          <caret line="651" column="60" selection-start-line="651" selection-start-column="50" selection-end-line="651" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="861">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="987">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3934" max-vertical-offset="5481">
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir-bench.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="273">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1239">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/benchmark/benchmark.zep.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1155">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25263" max-vertical-offset="29232">
@@ -431,14 +546,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -461,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="462">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1419342847000" expanded="true" signature="-1:-1" placeholder="php:" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,14 +613,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="460">
           <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -532,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,9 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1419342847000" expanded="true" signature="-1:-1" placeholder="php:" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1419342847000" expanded="true" signature="-1:-1" placeholder="php:" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1419342847000" expanded="true" signature="-1:-1" placeholder="php:" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1549">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,54 +748,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.2" vertical-offset="0" max-vertical-offset="861">
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="861">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/benchmark.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-52.62963" vertical-offset="3934" max-vertical-offset="5481">
-          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext/benchmark/benchmark.zep.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="4641">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding />
-        </state>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8681319" vertical-offset="19783" max-vertical-offset="21357">
           <caret line="1006" column="9" selection-start-line="1006" selection-start-column="9" selection-end-line="1006" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1239">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zephir-bench.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06787331" vertical-offset="0" max-vertical-offset="1547">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="273">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/benchmark/benchmark.zep.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.148148" vertical-offset="2475" max-vertical-offset="5330">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.35484" vertical-offset="1300" max-vertical-offset="6682">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark/Benchmark.zep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44656488" vertical-offset="0" max-vertical-offset="1572">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
