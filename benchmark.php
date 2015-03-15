@@ -193,6 +193,7 @@ class Benchmark
             $total += Benchmark::benchCall($class, 'methodCallEmpty', $count);
             $total += Benchmark::benchCall($class, 'methodCallBool', $count);
 
+	    $count = 140000;
             $total += Benchmark::benchCall($class, 'arrayAppendInt', $count);
             $total += Benchmark::benchCall($class, 'arrayAppendString', $count);
 
@@ -249,4 +250,6 @@ class Benchmark
     }
 }
 
+set_time_limit(0);
+ini_set('memory_limit', '256M');
 Benchmark::bench();
